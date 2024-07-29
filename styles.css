@@ -2,7 +2,7 @@
     --branco-principal: #000000;
     --cinza-secundario: #ffffff;
     --botao-azul: #ffffff;
-    --cor-de-fundo: #00a2ff;
+    --cor-de-fundo: #068abe;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #000000;
 }
@@ -68,9 +68,11 @@ body {
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 20%;
 }
-
+.imagempessoa {
+    width: 100%;
+}
 .secundario {
     align-items: center;
     margin: 0 10em;
@@ -79,12 +81,12 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--botao-azul);
     margin-bottom: 0.1em;
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario);
+    color: var(--cinza-secundario)
 }
 
 .secundario__botao {
