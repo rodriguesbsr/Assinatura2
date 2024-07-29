@@ -1,10 +1,10 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --branco-principal: #000000;
+    --cinza-secundario: #ffffff;
+    --botao-azul: #ffffff;
+    --cor-de-fundo: #00a2ff;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --botao-azul-efeito: #000000;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 }
 
 .botao_secundario {
-    background-color: transparent;
+    background-color: #ffffff;
     border: 2px solid var(--branco-principal)
 }
 
