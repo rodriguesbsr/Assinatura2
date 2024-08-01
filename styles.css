@@ -15,7 +15,7 @@ body {
     font-weight: 400;
 }
 
-* {
+.container_secundario{
     margin: 0;
     padding: 0;
 }
@@ -70,6 +70,11 @@ body {
 .secundario__imagem {
     width: 20%;
 }
+
+.bandeira_eua {
+     width: 20%;
+    }
+
 .imagempessoa {
     width: 100%;
 }
