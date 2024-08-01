@@ -1,10 +1,10 @@
 :root {
-    --branco-principal: #000000;
-    --cinza-secundario: #ffffff;
-    --botao-azul: #ffffff;
-    --cor-de-fundo: #068abe;
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #000000;
+    --botao-azul-efeito: #3c92fa;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     font-weight: 400;
 }
 
-.container_secundario{
+* {
     margin: 0;
     padding: 0;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .botao_secundario {
-    background-color: #ffffff;
+    background-color: transparent;
     border: 2px solid var(--branco-principal)
 }
 
@@ -68,16 +68,9 @@ body {
 }
 
 .secundario__imagem {
-    width: 20%;
+    width: 80%;
 }
 
-.bandeira_eua {
-     width: 20%;
-    }
-
-.imagempessoa {
-    width: 100%;
-}
 .secundario {
     align-items: center;
     margin: 0 10em;
@@ -86,12 +79,12 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--botao-azul);
+    color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
 
 .descricao__texto {
-    color: var(--cinza-secundario)
+    color: var(--cinza-secundario);
 }
 
 .secundario__botao {
